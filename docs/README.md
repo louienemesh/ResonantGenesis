@@ -32,6 +32,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Rate Limits](./RATE_LIMITS.md)** - API rate limits and best practices
 - **[Authentication](./AUTHENTICATION.md)** - API keys, JWT, OAuth2, 2FA
 - **[Error Codes](./ERRORS.md)** - Error codes reference and handling
+- **[Versioning](./VERSIONING.md)** - API and SDK versioning guide
 
 ### Core Features
 
@@ -131,8 +132,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | MARKETPLACE.md | 505 | Feb 2026 |
 | SANDBOX.md | 455 | Feb 2026 |
 | COMPLIANCE.md | 399 | Feb 2026 |
+| VERSIONING.md | 426 | Feb 2026 |
 
-**Total: ~17,885 lines of documentation**
+**Total: ~18,311 lines of documentation**
 
 ## Contributing
 
