@@ -42,6 +42,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Integrations](./INTEGRATIONS.md)** - Slack, Discord, GitHub, and more
 - **[Sessions](./SESSIONS.md)** - Session management and conversations
 - **[Models](./MODELS.md)** - AI models and selection guidance
+- **[Agents](./AGENTS.md)** - Agent creation and lifecycle
 
 ### Platform
 
@@ -121,8 +122,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | SUPPORT.md | 297 | Feb 2026 |
 | SESSIONS.md | 493 | Feb 2026 |
 | MODELS.md | 371 | Feb 2026 |
+| AGENTS.md | 507 | Feb 2026 |
 
-**Total: ~15,492 lines of documentation**
+**Total: ~15,999 lines of documentation**
 
 ## Contributing
 
