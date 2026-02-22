@@ -63,7 +63,8 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Deployment](./DEPLOYMENT.md)** - Self-hosting and deployment guide
 - **[Migrations](./MIGRATIONS.md)** - Database and API migration guide
 - **[Monitoring](./MONITORING.md)** - Metrics, logging, and alerting
-- **[Testing](./TESTING.md)** - Testing strategies and best practices
+- **[Testing](./TESTING.md)** - Testing strategies and frameworks
+- **[Sandbox](./SANDBOX.md)** - Docker sandboxing and security isolation practices
 - **[Performance](./PERFORMANCE.md)** - Optimization and scaling
 
 ## By Role
@@ -127,8 +128,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | AGENTS.md | 507 | Feb 2026 |
 | TEMPLATES.md | 527 | Feb 2026 |
 | MARKETPLACE.md | 505 | Feb 2026 |
+| SANDBOX.md | 455 | Feb 2026 |
 
-**Total: ~17,031 lines of documentation**
+**Total: ~17,486 lines of documentation**
 
 ## Contributing
 
