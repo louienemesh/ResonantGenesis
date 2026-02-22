@@ -16,6 +16,115 @@ Authorization: Bearer <your_access_token>
 
 ---
 
+## Quick Start Guide
+
+Get up and running with the ResonantGenesis API in minutes.
+
+### 1. Get Your API Token
+
+```bash
+# Register a new account
+curl -X POST https://resonantgenesis.xyz/api/v1/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"email": "you@example.com", "password": "your-secure-password"}'
+
+# Login to get access token
+curl -X POST https://resonantgenesis.xyz/api/v1/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email": "you@example.com", "password": "your-secure-password"}'
+
+# Response:
+# {"access_token": "eyJ...", "token_type": "bearer", "expires_in": 3600}
+```
+
+### 2. Create Your First Agent
+
+```bash
+export TOKEN="your_access_token"
+
+curl -X POST https://resonantgenesis.xyz/api/v1/agents \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "My First Agent",
+    "description": "A helpful research assistant",
+    "system_prompt": "You are a helpful research assistant. Be concise and accurate.",
+    "model": "gpt-4-turbo",
+    "tools": ["web_search"]
+  }'
+```
+
+### 3. Start an Execution Session
+
+```bash
+curl -X POST https://resonantgenesis.xyz/api/v1/agents/{agent_id}/sessions \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "goal": "Research the latest developments in quantum computing",
+    "max_steps": 5
+  }'
+```
+
+### 4. Check Session Status
+
+```bash
+curl -X GET https://resonantgenesis.xyz/api/v1/agents/{agent_id}/sessions/{session_id} \
+  -H "Authorization: Bearer $TOKEN"
+```
+
+### Python SDK Example
+
+```python
+from resonantgenesis import ResonantClient
+
+# Initialize client
+client = ResonantClient(api_key="your_api_key")
+
+# Create an agent
+agent = client.agents.create(
+    name="Research Assistant",
+    system_prompt="You are a helpful research assistant.",
+    model="gpt-4-turbo",
+    tools=["web_search", "code_exec"]
+)
+
+# Start a session
+session = agent.execute(
+    goal="Analyze the top 5 AI papers from this week",
+    max_steps=10
+)
+
+# Wait for completion and get results
+result = session.wait()
+print(result.output)
+```
+
+### JavaScript/TypeScript SDK Example
+
+```typescript
+import { ResonantClient } from '@resonantgenesis/sdk';
+
+const client = new ResonantClient({ apiKey: 'your_api_key' });
+
+// Create and execute an agent
+const agent = await client.agents.create({
+  name: 'Code Reviewer',
+  systemPrompt: 'You are an expert code reviewer.',
+  model: 'gpt-4-turbo',
+  tools: ['code_exec']
+});
+
+const session = await agent.execute({
+  goal: 'Review this pull request for security issues',
+  context: { prUrl: 'https://github.com/...' }
+});
+
+console.log(session.result);
+```
+
+---
+
 ## Agents API
 
 ### Create Agent
@@ -729,3 +838,105 @@ Official SDKs are available for:
 - **JavaScript/TypeScript**: `npm install @resonantgenesis/sdk`
 
 See [GitHub](https://github.com/louienemesh/ResonantGenesis) for SDK documentation.
+
+---
+
+## Pagination
+
+All list endpoints support pagination using `limit` and `offset` parameters.
+
+### Request Parameters
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `limit` | integer | 50 | Maximum number of results (max: 100) |
+| `offset` | integer | 0 | Number of results to skip |
+
+### Response Format
+
+Paginated responses include metadata:
+
+```json
+{
+  "data": [...],
+  "pagination": {
+    "total": 150,
+    "limit": 50,
+    "offset": 0,
+    "has_more": true
+  }
+}
+```
+
+### Example: Paginating Through Agents
+
+```bash
+# First page
+curl "https://resonantgenesis.xyz/api/v1/agents?limit=20&offset=0" \
+  -H "Authorization: Bearer $TOKEN"
+
+# Second page
+curl "https://resonantgenesis.xyz/api/v1/agents?limit=20&offset=20" \
+  -H "Authorization: Bearer $TOKEN"
+```
+
+---
+
+## API Versioning
+
+The API uses URL-based versioning. The current version is `v1`.
+
+```
+https://resonantgenesis.xyz/api/v1/...
+```
+
+### Version Lifecycle
+- **Current**: `v1` - Stable, production-ready
+- **Deprecated**: None
+- **Sunset**: None
+
+Breaking changes will result in a new version (e.g., `v2`). Non-breaking additions (new fields, endpoints) are added to the current version.
+
+### Deprecation Policy
+- Deprecated endpoints will be announced 6 months before removal
+- Deprecation warnings are included in response headers:
+  ```
+  X-API-Deprecated: true
+  X-API-Sunset-Date: 2027-01-01
+  ```
+
+---
+
+## Changelog
+
+### v1.3.0 (February 2026)
+- **Added**: Agent Teams API for multi-agent collaboration
+- **Added**: Team rental functionality
+- **Added**: Workflow orchestration endpoints
+- **Improved**: Session streaming with more event types
+
+### v1.2.0 (January 2026)
+- **Added**: Custom tools API
+- **Added**: Webhook triggers for automated execution
+- **Added**: Template instantiation endpoint
+- **Improved**: Rate limit headers in responses
+
+### v1.1.0 (December 2025)
+- **Added**: Blockchain publishing (`/agents/{id}/publish`)
+- **Added**: Network agent search and execution
+- **Added**: Node status endpoint
+- **Improved**: Error response consistency
+
+### v1.0.0 (November 2025)
+- Initial API release
+- Core agents CRUD operations
+- Session management
+- Basic metrics endpoints
+
+---
+
+## Support
+
+- **Documentation**: [https://resonantgenesis.xyz/help](https://resonantgenesis.xyz/help)
+- **GitHub Issues**: [https://github.com/louienemesh/ResonantGenesis/issues](https://github.com/louienemesh/ResonantGenesis/issues)
+- **Email**: support@resonantgenesis.xyz
+- **Discord**: [Join our community](https://discord.gg/resonantgenesis)
