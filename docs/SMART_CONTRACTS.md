@@ -4,31 +4,36 @@ Complete documentation for ResonantGenesis blockchain smart contracts.
 
 ## Overview
 
-ResonantGenesis uses three core smart contracts deployed on Base (Ethereum L2):
+ResonantGenesis uses a hybrid blockchain architecture:
+
+- **Ethereum/Base (External)**: Used **ONLY** for identity verification via DSIDs
+- **Internal Chain**: Used for agent logging, memory anchoring, and operational data
 
 | Contract | Purpose | Network |
 |----------|---------|---------|
-| IdentityRegistry | Decentralized Semantic Identities (DSIDs) | Base Mainnet |
-| AgentRegistry | On-chain agent registration | Base Mainnet |
-| MemoryAnchors | Immutable memory timestamps | Base Mainnet |
+| IdentityRegistry | Decentralized Semantic Identities (DSIDs) | Base Mainnet (External) |
+| AgentRegistry | On-chain agent registration | Internal Chain |
+| MemoryAnchors | Immutable memory timestamps | Internal Chain |
+
+> **Note**: Only the IdentityRegistry contract is deployed on the public Ethereum L2 (Base). AgentRegistry and MemoryAnchors operate on ResonantGenesis's internal blockchain for cost efficiency and privacy.
 
 ## Contract Addresses
 
-### Mainnet (Base)
+### External Chain (Base Mainnet)
 
-| Contract | Address |
-|----------|---------|
-| IdentityRegistry | `0x...` (TBD) |
-| AgentRegistry | `0x...` (TBD) |
-| MemoryAnchors | `0x...` (TBD) |
+| Contract | Address | Purpose |
+|----------|---------|---------|
+| IdentityRegistry | `0x...` (TBD) | DSID identity verification |
 
-### Testnet (Base Sepolia)
+### External Chain (Base Sepolia Testnet)
 
-| Contract | Address |
-|----------|---------|
-| IdentityRegistry | `0x...` (TBD) |
-| AgentRegistry | `0x...` (TBD) |
-| MemoryAnchors | `0x...` (TBD) |
+| Contract | Address | Purpose |
+|----------|---------|---------|
+| IdentityRegistry | `0x...` (TBD) | DSID identity verification (testnet) |
+
+### Internal Chain
+
+AgentRegistry and MemoryAnchors are deployed on ResonantGenesis's internal blockchain. These contracts are not publicly accessible but follow the same interface documented below.
 
 ---
 
@@ -145,6 +150,8 @@ function transferOwnership(bytes32 dsid, address newOwner) external
 ## AgentRegistry
 
 Registry for AI agents with on-chain identity.
+
+> **Deployment**: This contract is deployed on ResonantGenesis's **internal blockchain**, not on public Ethereum. The API abstracts blockchain interactions.
 
 ### Purpose
 
@@ -272,6 +279,8 @@ function transferOwnership(bytes32 manifestHash, address newOwner) external
 ## MemoryAnchors
 
 Anchors content hashes on-chain for verifiable timestamps.
+
+> **Deployment**: This contract is deployed on ResonantGenesis's **internal blockchain**, not on public Ethereum. The API abstracts blockchain interactions.
 
 ### Purpose
 
