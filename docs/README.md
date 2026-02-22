@@ -40,6 +40,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Webhooks](./WEBHOOKS.md)** - Webhook triggers and integrations
 - **[Memory System](./MEMORY_SYSTEM.md)** - Agent memory and knowledge graphs
 - **[Integrations](./INTEGRATIONS.md)** - Slack, Discord, GitHub, and more
+- **[Sessions](./SESSIONS.md)** - Session management and conversations
 
 ### Platform
 
@@ -117,8 +118,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | USE_CASES.md | 735 | Feb 2026 |
 | ROADMAP.md | 248 | Feb 2026 |
 | SUPPORT.md | 297 | Feb 2026 |
+| SESSIONS.md | 493 | Feb 2026 |
 
-**Total: ~14,628 lines of documentation**
+**Total: ~15,121 lines of documentation**
 
 ## Contributing
 
