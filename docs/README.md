@@ -43,6 +43,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Sessions](./SESSIONS.md)** - Session management and conversations
 - **[Models](./MODELS.md)** - AI models and selection guidance
 - **[Agents](./AGENTS.md)** - Agent creation and lifecycle
+- **[Templates](./TEMPLATES.md)** - Agent templates and customization
 
 ### Platform
 
@@ -123,8 +124,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | SESSIONS.md | 493 | Feb 2026 |
 | MODELS.md | 371 | Feb 2026 |
 | AGENTS.md | 507 | Feb 2026 |
+| TEMPLATES.md | 527 | Feb 2026 |
 
-**Total: ~15,999 lines of documentation**
+**Total: ~16,526 lines of documentation**
 
 ## Contributing
 
