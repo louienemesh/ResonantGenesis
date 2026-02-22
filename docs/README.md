@@ -20,6 +20,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Troubleshooting](./TROUBLESHOOTING.md)** - Common issues and solutions
 - **[Best Practices](./BEST_PRACTICES.md)** - Agent design and production tips
 - **[Use Cases](./USE_CASES.md)** - Common use cases and patterns
+- **[Support](./SUPPORT.md)** - Getting help and support channels
 
 ### API & SDKs
 
@@ -115,8 +116,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | BEST_PRACTICES.md | 573 | Feb 2026 |
 | USE_CASES.md | 735 | Feb 2026 |
 | ROADMAP.md | 248 | Feb 2026 |
+| SUPPORT.md | 297 | Feb 2026 |
 
-**Total: ~14,331 lines of documentation**
+**Total: ~14,628 lines of documentation**
 
 ## Contributing
 
