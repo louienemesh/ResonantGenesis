@@ -46,6 +46,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Architecture](./ARCHITECTURE.md)** - System architecture overview
 - **[Pricing](./PRICING.md)** - Pricing tiers and billing
 - **[Data Privacy](./DATA_PRIVACY.md)** - Privacy, GDPR, and compliance
+- **[Roadmap](./ROADMAP.md)** - Platform roadmap and upcoming features
 
 ### Blockchain
 
@@ -113,8 +114,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | DATA_PRIVACY.md | 420 | Feb 2026 |
 | BEST_PRACTICES.md | 573 | Feb 2026 |
 | USE_CASES.md | 735 | Feb 2026 |
+| ROADMAP.md | 248 | Feb 2026 |
 
-**Total: ~14,083 lines of documentation**
+**Total: ~14,331 lines of documentation**
 
 ## Contributing
 
