@@ -530,11 +530,11 @@ except RateLimitError as e:
 
 **Message:** DSID not registered
 
-**Cause:** Identity not on blockchain
+**Cause:** Identity not registered on Base (Ethereum L2)
 
 **Solution:**
-- Register identity first
-- Check correct network
+- Register identity on Base first
+- Check correct network (Base Mainnet or Sepolia)
 
 ### `already_registered`
 
