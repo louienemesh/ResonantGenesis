@@ -52,6 +52,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Notifications](./NOTIFICATIONS.md)** - Notification system and preferences
 - **[Plugins](./PLUGINS.md)** - Plugin system and development
 - **[Streaming](./STREAMING.md)** - Real-time streaming and WebSockets
+- **[Caching](./CACHING.md)** - Caching strategies and optimization
 
 ### Platform
 
@@ -161,8 +162,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | CLI.md | 658 | Feb 2026 |
 | PLUGINS.md | 634 | Feb 2026 |
 | STREAMING.md | 687 | Feb 2026 |
+| CACHING.md | 599 | Feb 2026 |
 
-**Total: ~25,973 lines of documentation**
+**Total: ~26,572 lines of documentation**
 
 ## Contributing
 
