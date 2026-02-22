@@ -27,6 +27,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[SDK Guide](./SDK_GUIDE.md)** - Python and JavaScript SDK documentation
 - **[Examples](./EXAMPLES.md)** - Practical code examples for common use cases
 - **[Rate Limits](./RATE_LIMITS.md)** - API rate limits and best practices
+- **[Authentication](./AUTHENTICATION.md)** - API keys, JWT, OAuth2, 2FA
 
 ### Core Features
 
@@ -91,8 +92,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | TROUBLESHOOTING.md | 565 | Feb 2026 |
 | EXAMPLES.md | 744 | Feb 2026 |
 | RATE_LIMITS.md | 506 | Feb 2026 |
+| AUTHENTICATION.md | 449 | Feb 2026 |
 
-**Total: ~8,006 lines of documentation**
+**Total: ~8,455 lines of documentation**
 
 ## Contributing
 
