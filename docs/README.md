@@ -51,6 +51,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Events](./EVENTS.md)** - Platform events and event-driven architecture
 - **[Notifications](./NOTIFICATIONS.md)** - Notification system and preferences
 - **[Plugins](./PLUGINS.md)** - Plugin system and development
+- **[Streaming](./STREAMING.md)** - Real-time streaming and WebSockets
 
 ### Platform
 
@@ -159,8 +160,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | MOBILE.md | 657 | Feb 2026 |
 | CLI.md | 658 | Feb 2026 |
 | PLUGINS.md | 634 | Feb 2026 |
+| STREAMING.md | 687 | Feb 2026 |
 
-**Total: ~25,286 lines of documentation**
+**Total: ~25,973 lines of documentation**
 
 ## Contributing
 
