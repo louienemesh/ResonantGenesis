@@ -20,7 +20,7 @@ ResonantGenesis development roadmap and upcoming features.
 - [x] Webhook triggers
 - [x] Basic memory system
 - [x] Trust tier system
-- [x] Smart contract deployment (Base)
+- [x] Smart contract deployment (Base for identity, internal chain for operations)
 - [x] Marketplace foundation
 
 ### In Progress
