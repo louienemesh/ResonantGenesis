@@ -62,6 +62,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Governance](./GOVERNANCE.md)** - Platform governance and voting
 - **[Localization](./LOCALIZATION.md)** - Internationalization and language support
 - **[Accessibility](./ACCESSIBILITY.md)** - WCAG compliance and assistive technology
+- **[SLA](./SLA.md)** - Service Level Agreements and uptime guarantees
 
 ### Blockchain
 
@@ -151,8 +152,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | GOVERNANCE.md | 482 | Feb 2026 |
 | LOCALIZATION.md | 515 | Feb 2026 |
 | ACCESSIBILITY.md | 539 | Feb 2026 |
+| SLA.md | 402 | Feb 2026 |
 
-**Total: ~22,935 lines of documentation**
+**Total: ~23,337 lines of documentation**
 
 ## Contributing
 
