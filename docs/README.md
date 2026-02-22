@@ -85,6 +85,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Backup & Recovery](./BACKUP_RECOVERY.md)** - Backup and disaster recovery
 - **[Scaling](./SCALING.md)** - Horizontal scaling and high availability
 - **[Kubernetes](./KUBERNETES.md)** - Kubernetes deployment and Helm charts
+- **[Docker](./DOCKER.md)** - Docker deployment and containerization
 
 ## By Role
 
@@ -168,8 +169,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | LOGGING.md | 618 | Feb 2026 |
 | SCALING.md | 723 | Feb 2026 |
 | KUBERNETES.md | 698 | Feb 2026 |
+| DOCKER.md | 731 | Feb 2026 |
 
-**Total: ~28,611 lines of documentation**
+**Total: ~29,342 lines of documentation**
 
 ## Contributing
 
