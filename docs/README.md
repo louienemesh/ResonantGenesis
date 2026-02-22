@@ -47,6 +47,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Agents](./AGENTS.md)** - Agent creation and lifecycle
 - **[Templates](./TEMPLATES.md)** - Agent templates and customization
 - **[Events](./EVENTS.md)** - Platform events and event-driven architecture
+- **[Notifications](./NOTIFICATIONS.md)** - Notification system and preferences
 
 ### Platform
 
@@ -141,8 +142,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | SECURITY_AUDIT.md | 480 | Feb 2026 |
 | BACKUP_RECOVERY.md | 565 | Feb 2026 |
 | ONBOARDING.md | 495 | Feb 2026 |
+| NOTIFICATIONS.md | 527 | Feb 2026 |
 
-**Total: ~20,371 lines of documentation**
+**Total: ~20,898 lines of documentation**
 
 ## Contributing
 
