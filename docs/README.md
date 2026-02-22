@@ -15,6 +15,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 ### Getting Started
 
 - **[Getting Started Guide](./GETTING_STARTED.md)** - Step-by-step tutorial for new users
+- **[Onboarding](./ONBOARDING.md)** - User, team, and enterprise onboarding
 - **[FAQ](./FAQ.md)** - Common questions and answers
 - **[Glossary](./GLOSSARY.md)** - Key terms and definitions
 - **[Troubleshooting](./TROUBLESHOOTING.md)** - Common issues and solutions
@@ -139,8 +140,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | EVENTS.md | 520 | Feb 2026 |
 | SECURITY_AUDIT.md | 480 | Feb 2026 |
 | BACKUP_RECOVERY.md | 565 | Feb 2026 |
+| ONBOARDING.md | 495 | Feb 2026 |
 
-**Total: ~19,876 lines of documentation**
+**Total: ~20,371 lines of documentation**
 
 ## Contributing
 
