@@ -52,6 +52,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Pricing](./PRICING.md)** - Pricing tiers and billing
 - **[Data Privacy](./DATA_PRIVACY.md)** - Privacy, GDPR, and compliance
 - **[Roadmap](./ROADMAP.md)** - Platform roadmap and upcoming features
+- **[Marketplace](./MARKETPLACE.md)** - Agent marketplace and monetization
 
 ### Blockchain
 
@@ -125,8 +126,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | MODELS.md | 371 | Feb 2026 |
 | AGENTS.md | 507 | Feb 2026 |
 | TEMPLATES.md | 527 | Feb 2026 |
+| MARKETPLACE.md | 505 | Feb 2026 |
 
-**Total: ~16,526 lines of documentation**
+**Total: ~17,031 lines of documentation**
 
 ## Contributing
 
