@@ -415,7 +415,9 @@ response = requests.post(
 
 ## Blockchain Integration
 
-### Python - Register Identity
+> **Note**: ResonantGenesis uses a hybrid blockchain architecture. Identity registration (DSIDs) uses Base (Ethereum L2). Agent registration and memory anchoring use an internal blockchain and are abstracted via the API.
+
+### Python - Register Identity (Base - External)
 
 ```python
 from web3 import Web3
@@ -444,10 +446,10 @@ receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 print(f"Identity registered: {dsid.hex()}")
 ```
 
-### Python - Publish Agent
+### Python - Publish Agent (Internal Chain via API)
 
 ```python
-# Publish agent to blockchain
+# Publish agent (uses internal blockchain via API)
 publication = agent.publish(
     price_per_execution=0.001,  # ETH
     rental_enabled=True,
