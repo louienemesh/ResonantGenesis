@@ -84,6 +84,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Security Audit](./SECURITY_AUDIT.md)** - Security audits and vulnerability management
 - **[Backup & Recovery](./BACKUP_RECOVERY.md)** - Backup and disaster recovery
 - **[Scaling](./SCALING.md)** - Horizontal scaling and high availability
+- **[Kubernetes](./KUBERNETES.md)** - Kubernetes deployment and Helm charts
 
 ## By Role
 
@@ -166,8 +167,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | CACHING.md | 599 | Feb 2026 |
 | LOGGING.md | 618 | Feb 2026 |
 | SCALING.md | 723 | Feb 2026 |
+| KUBERNETES.md | 698 | Feb 2026 |
 
-**Total: ~27,913 lines of documentation**
+**Total: ~28,611 lines of documentation**
 
 ## Contributing
 
