@@ -70,6 +70,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Sandbox](./SANDBOX.md)** - Docker sandboxing and security isolation practices
 - **[Performance](./PERFORMANCE.md)** - Optimization and scaling
 - **[Security Audit](./SECURITY_AUDIT.md)** - Security audits and vulnerability management
+- **[Backup & Recovery](./BACKUP_RECOVERY.md)** - Backup and disaster recovery
 
 ## By Role
 
@@ -137,8 +138,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | VERSIONING.md | 426 | Feb 2026 |
 | EVENTS.md | 520 | Feb 2026 |
 | SECURITY_AUDIT.md | 480 | Feb 2026 |
+| BACKUP_RECOVERY.md | 565 | Feb 2026 |
 
-**Total: ~19,311 lines of documentation**
+**Total: ~19,876 lines of documentation**
 
 ## Contributing
 
