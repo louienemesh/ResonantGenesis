@@ -53,6 +53,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Data Privacy](./DATA_PRIVACY.md)** - Privacy, GDPR, and compliance
 - **[Roadmap](./ROADMAP.md)** - Platform roadmap and upcoming features
 - **[Marketplace](./MARKETPLACE.md)** - Agent marketplace and monetization
+- **[Compliance](./COMPLIANCE.md)** - SOC 2, GDPR, HIPAA compliance
 
 ### Blockchain
 
@@ -129,8 +130,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | TEMPLATES.md | 527 | Feb 2026 |
 | MARKETPLACE.md | 505 | Feb 2026 |
 | SANDBOX.md | 455 | Feb 2026 |
+| COMPLIANCE.md | 399 | Feb 2026 |
 
-**Total: ~17,486 lines of documentation**
+**Total: ~17,885 lines of documentation**
 
 ## Contributing
 
