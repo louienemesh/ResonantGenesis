@@ -78,7 +78,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Deployment](./DEPLOYMENT.md)** - Self-hosting and deployment guide
 - **[Migrations](./MIGRATIONS.md)** - Database and API migration guide
 - **[Monitoring](./MONITORING.md)** - Metrics, logging, and alerting
-- **[Testing](./TESTING.md)** - Testing strategies and frameworks
+- **[Logging](./LOGGING.md)** - Logging configuration and management
 - **[Sandbox](./SANDBOX.md)** - Docker sandboxing and security isolation practices
 - **[Performance](./PERFORMANCE.md)** - Optimization and scaling
 - **[Security Audit](./SECURITY_AUDIT.md)** - Security audits and vulnerability management
@@ -163,8 +163,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | PLUGINS.md | 634 | Feb 2026 |
 | STREAMING.md | 687 | Feb 2026 |
 | CACHING.md | 599 | Feb 2026 |
+| LOGGING.md | 618 | Feb 2026 |
 
-**Total: ~26,572 lines of documentation**
+**Total: ~27,190 lines of documentation**
 
 ## Contributing
 
