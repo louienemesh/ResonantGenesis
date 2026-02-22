@@ -18,6 +18,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[FAQ](./FAQ.md)** - Common questions and answers
 - **[Glossary](./GLOSSARY.md)** - Key terms and definitions
 - **[Troubleshooting](./TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Best Practices](./BEST_PRACTICES.md)** - Agent design and production tips
 
 ### API & SDKs
 
@@ -109,8 +110,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | PRICING.md | 400 | Feb 2026 |
 | INTEGRATIONS.md | 531 | Feb 2026 |
 | DATA_PRIVACY.md | 420 | Feb 2026 |
+| BEST_PRACTICES.md | 573 | Feb 2026 |
 
-**Total: ~12,775 lines of documentation**
+**Total: ~13,348 lines of documentation**
 
 ## Contributing
 
