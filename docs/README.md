@@ -28,6 +28,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Examples](./EXAMPLES.md)** - Practical code examples for common use cases
 - **[Rate Limits](./RATE_LIMITS.md)** - API rate limits and best practices
 - **[Authentication](./AUTHENTICATION.md)** - API keys, JWT, OAuth2, 2FA
+- **[Error Codes](./ERRORS.md)** - Error codes reference and handling
 
 ### Core Features
 
@@ -93,8 +94,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | EXAMPLES.md | 744 | Feb 2026 |
 | RATE_LIMITS.md | 506 | Feb 2026 |
 | AUTHENTICATION.md | 449 | Feb 2026 |
+| ERRORS.md | 675 | Feb 2026 |
 
-**Total: ~8,455 lines of documentation**
+**Total: ~9,130 lines of documentation**
 
 ## Contributing
 
