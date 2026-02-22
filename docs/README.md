@@ -35,6 +35,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Error Codes](./ERRORS.md)** - Error codes reference and handling
 - **[Versioning](./VERSIONING.md)** - API and SDK versioning guide
 - **[Mobile SDK](./MOBILE.md)** - iOS and Android mobile SDK
+- **[CLI](./CLI.md)** - Command-line interface guide
 
 ### Core Features
 
@@ -155,8 +156,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | ACCESSIBILITY.md | 539 | Feb 2026 |
 | SLA.md | 402 | Feb 2026 |
 | MOBILE.md | 657 | Feb 2026 |
+| CLI.md | 658 | Feb 2026 |
 
-**Total: ~23,994 lines of documentation**
+**Total: ~24,652 lines of documentation**
 
 ## Contributing
 
