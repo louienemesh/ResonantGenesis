@@ -60,6 +60,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Compliance](./COMPLIANCE.md)** - SOC 2, GDPR, HIPAA compliance
 - **[Analytics](./ANALYTICS.md)** - Platform analytics and reporting
 - **[Governance](./GOVERNANCE.md)** - Platform governance and voting
+- **[Localization](./LOCALIZATION.md)** - Internationalization and language support
 
 ### Blockchain
 
@@ -147,8 +148,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | NOTIFICATIONS.md | 527 | Feb 2026 |
 | ANALYTICS.md | 501 | Feb 2026 |
 | GOVERNANCE.md | 482 | Feb 2026 |
+| LOCALIZATION.md | 515 | Feb 2026 |
 
-**Total: ~21,881 lines of documentation**
+**Total: ~22,396 lines of documentation**
 
 ## Contributing
 
