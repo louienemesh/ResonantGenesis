@@ -58,6 +58,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Roadmap](./ROADMAP.md)** - Platform roadmap and upcoming features
 - **[Marketplace](./MARKETPLACE.md)** - Agent marketplace and monetization
 - **[Compliance](./COMPLIANCE.md)** - SOC 2, GDPR, HIPAA compliance
+- **[Analytics](./ANALYTICS.md)** - Platform analytics and reporting
 
 ### Blockchain
 
@@ -143,8 +144,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | BACKUP_RECOVERY.md | 565 | Feb 2026 |
 | ONBOARDING.md | 495 | Feb 2026 |
 | NOTIFICATIONS.md | 527 | Feb 2026 |
+| ANALYTICS.md | 501 | Feb 2026 |
 
-**Total: ~20,898 lines of documentation**
+**Total: ~21,399 lines of documentation**
 
 ## Contributing
 
