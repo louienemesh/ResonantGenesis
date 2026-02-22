@@ -45,6 +45,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Models](./MODELS.md)** - AI models and selection guidance
 - **[Agents](./AGENTS.md)** - Agent creation and lifecycle
 - **[Templates](./TEMPLATES.md)** - Agent templates and customization
+- **[Events](./EVENTS.md)** - Platform events and event-driven architecture
 
 ### Platform
 
@@ -133,8 +134,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | SANDBOX.md | 455 | Feb 2026 |
 | COMPLIANCE.md | 399 | Feb 2026 |
 | VERSIONING.md | 426 | Feb 2026 |
+| EVENTS.md | 520 | Feb 2026 |
 
-**Total: ~18,311 lines of documentation**
+**Total: ~18,831 lines of documentation**
 
 ## Contributing
 
