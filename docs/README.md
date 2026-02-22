@@ -25,6 +25,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[API Endpoints](./API_ENDPOINTS.md)** - Endpoint quick reference
 - **[API Testing](./API_TESTING.md)** - Testing guide with curl and pytest
 - **[SDK Guide](./SDK_GUIDE.md)** - Python and JavaScript SDK documentation
+- **[Examples](./EXAMPLES.md)** - Practical code examples for common use cases
 
 ### Core Features
 
@@ -87,8 +88,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | API_ENDPOINTS.md | 200 | Feb 2026 |
 | GLOSSARY.md | 217 | Feb 2026 |
 | TROUBLESHOOTING.md | 565 | Feb 2026 |
+| EXAMPLES.md | 744 | Feb 2026 |
 
-**Total: ~6,756 lines of documentation**
+**Total: ~7,500 lines of documentation**
 
 ## Contributing
 
