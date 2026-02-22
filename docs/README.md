@@ -41,6 +41,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Memory System](./MEMORY_SYSTEM.md)** - Agent memory and knowledge graphs
 - **[Integrations](./INTEGRATIONS.md)** - Slack, Discord, GitHub, and more
 - **[Sessions](./SESSIONS.md)** - Session management and conversations
+- **[Models](./MODELS.md)** - AI models and selection guidance
 
 ### Platform
 
@@ -119,8 +120,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | ROADMAP.md | 248 | Feb 2026 |
 | SUPPORT.md | 297 | Feb 2026 |
 | SESSIONS.md | 493 | Feb 2026 |
+| MODELS.md | 371 | Feb 2026 |
 
-**Total: ~15,121 lines of documentation**
+**Total: ~15,492 lines of documentation**
 
 ## Contributing
 
