@@ -16,6 +16,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 
 - **[Getting Started Guide](./GETTING_STARTED.md)** - Step-by-step tutorial for new users
 - **[FAQ](./FAQ.md)** - Common questions and answers
+- **[Glossary](./GLOSSARY.md)** - Key terms and definitions
 
 ### API & SDKs
 
@@ -83,8 +84,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | API_TESTING.md | 230 | Feb 2026 |
 | ARCHITECTURE.md | 227 | Feb 2026 |
 | API_ENDPOINTS.md | 200 | Feb 2026 |
+| GLOSSARY.md | 217 | Feb 2026 |
 
-**Total: ~5,974 lines of documentation**
+**Total: ~6,191 lines of documentation**
 
 ## Contributing
 
