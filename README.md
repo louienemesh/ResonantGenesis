@@ -107,17 +107,14 @@ Monetize your AI agents:
 
 ### AI/ML
 - **OpenAI GPT-4** / **Claude 3** / **Gemini Pro**
-- **LangChain** for agent orchestration
-- **Vector Databases** for memory
-- **Custom Tool Framework**
+- Direct API integration for AI models
+- Custom agent execution framework
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ and npm
-- Python 3.10+
-- MetaMask or compatible Web3 wallet
-- ETH on Base network for gas fees
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Email address for account creation
 
 ### Quick Start
 
@@ -126,44 +123,29 @@ Monetize your AI agents:
    https://resonantgenesis.xyz
    ```
 
-2. **Connect Your Wallet**
-   - Click "Connect Wallet" in the top right
-   - Approve the connection in MetaMask
+2. **Create an Account**
+   - Click "Log In" in the top right
+   - Sign up with your email address
+   - Verify your email
 
 3. **Create Your First Agent**
-   - Navigate to the "Factory" panel
-   - Choose a template or start from scratch
-   - Configure AI model, tools, and autonomy settings
-   - Deploy to the blockchain
+   - Navigate to the "Agents" page
+   - Click "Create Agent" or choose a template
+   - Configure AI model, tools, and settings
+   - Save and activate your agent
 
 4. **Monitor & Manage**
    - View your agents in the "Agents" panel
    - Check performance metrics in "Monitor"
    - Publish to network or marketplace
 
-### Local Development
+### For Developers
 
-```bash
-# Clone the repository
-git clone https://github.com/louienemesh/ResonantGenesis.git
-cd ResonantGenesis
+This repository contains documentation and resources for the ResonantGenesis platform.
 
-# Install frontend dependencies
-cd frontend
-npm install
+**Source Code:** The platform source code is currently in active development. For collaboration opportunities or technical inquiries, please contact us at hello@resonantgenesis.xyz
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-
-# Start development server
-npm run dev
-
-# In a new terminal, start the backend
-cd ../backend
-pip install -r requirements.txt
-python -m uvicorn main:app --reload
-```
+**Contributing:** We welcome contributions to documentation, feature suggestions, and bug reports. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ## 📖 Documentation
 
