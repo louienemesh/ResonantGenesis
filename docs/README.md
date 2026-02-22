@@ -52,6 +52,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Migrations](./MIGRATIONS.md)** - Database and API migration guide
 - **[Monitoring](./MONITORING.md)** - Metrics, logging, and alerting
 - **[Testing](./TESTING.md)** - Testing strategies and best practices
+- **[Performance](./PERFORMANCE.md)** - Optimization and scaling
 
 ## By Role
 
@@ -101,8 +102,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | MIGRATIONS.md | 465 | Feb 2026 |
 | MONITORING.md | 587 | Feb 2026 |
 | TESTING.md | 635 | Feb 2026 |
+| PERFORMANCE.md | 607 | Feb 2026 |
 
-**Total: ~10,817 lines of documentation**
+**Total: ~11,424 lines of documentation**
 
 ## Contributing
 
