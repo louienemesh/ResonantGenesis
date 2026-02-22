@@ -59,6 +59,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Marketplace](./MARKETPLACE.md)** - Agent marketplace and monetization
 - **[Compliance](./COMPLIANCE.md)** - SOC 2, GDPR, HIPAA compliance
 - **[Analytics](./ANALYTICS.md)** - Platform analytics and reporting
+- **[Governance](./GOVERNANCE.md)** - Platform governance and voting
 
 ### Blockchain
 
@@ -145,8 +146,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | ONBOARDING.md | 495 | Feb 2026 |
 | NOTIFICATIONS.md | 527 | Feb 2026 |
 | ANALYTICS.md | 501 | Feb 2026 |
+| GOVERNANCE.md | 482 | Feb 2026 |
 
-**Total: ~21,399 lines of documentation**
+**Total: ~21,881 lines of documentation**
 
 ## Contributing
 
