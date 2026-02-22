@@ -36,6 +36,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Tools](./TOOLS.md)** - Agent tools: web search, code execution, APIs
 - **[Webhooks](./WEBHOOKS.md)** - Webhook triggers and integrations
 - **[Memory System](./MEMORY_SYSTEM.md)** - Agent memory and knowledge graphs
+- **[Integrations](./INTEGRATIONS.md)** - Slack, Discord, GitHub, and more
 
 ### Platform
 
@@ -105,8 +106,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | TESTING.md | 635 | Feb 2026 |
 | PERFORMANCE.md | 607 | Feb 2026 |
 | PRICING.md | 400 | Feb 2026 |
+| INTEGRATIONS.md | 531 | Feb 2026 |
 
-**Total: ~11,824 lines of documentation**
+**Total: ~12,355 lines of documentation**
 
 ## Contributing
 
