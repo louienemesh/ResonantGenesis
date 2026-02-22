@@ -30,13 +30,20 @@ Deterministic AI behavior through physics-based invariant enforcement:
 - **API Integration**: RESTful endpoints for physics-based AI control
 
 ### 🧠 Hash Sphere Memory
-3D spatial memory system with cryptographic hashing:
-- **Memory Anchors**: Store memories as 3D coordinates (x,y,z)
-- **Resonance Scoring**: Calculate semantic similarity between memories
-- **Clustering Algorithms**: Automatic memory organization
-- **Encryption**: AES-256 encrypted memory storage
-- **Visual Exploration**: Three.js 3D visualization of memory space
-- **Temporal Tracking**: Time-based memory retrieval
+Revolutionary 9-layer architecture for semantic memory:
+- **9-Layer Architecture**: Input Processing → Hash Generation → Universe ID → Embeddings → Coordinates → Resonance → Evidence → Multi-LLM → Output Correction
+- **3D Spatial Memory**: Memories positioned in semantic space (x,y,z) with hyperspherical coordinates (r,φ,θ)
+- **Multi-Hash System**: Meaning hash, energy hash, spin hash, and 256-bit universe ID
+- **Resonance Function**: R(h) = sin(a·x) + cos(b·y) + tan(c·z) for semantic similarity
+- **Spin Vectors**: 3D semantic rotation (topic, emotion, complexity)
+- **Anchor Energy**: E_j(s) = exp(-β·||s - A_j||²) for memory attraction
+- **Magnetic Pull System (HS-MPS)**: Non-linear boost for strong memories
+- **Multi-Method Retrieval**: RAG + Vector Embeddings + Hash Sphere + Resonance + Hybrid
+- **Semantic Components**: Meaning score, intensity score, sentiment score
+- **Cluster Assignment**: Automatic grouping with centroids
+- **AES-256 Encryption**: Secure memory storage
+- **3D Visualization**: Interactive Three.js sphere with spin vectors, clusters, energy fields
+- **[Full Documentation](./docs/HASH_SPHERE_MEMORY.md)**: Complete technical specification
 
 ### 🔍 Code Visualizer
 Real-time codebase analysis and dependency mapping:
