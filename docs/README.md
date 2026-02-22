@@ -83,6 +83,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Performance](./PERFORMANCE.md)** - Optimization and scaling
 - **[Security Audit](./SECURITY_AUDIT.md)** - Security audits and vulnerability management
 - **[Backup & Recovery](./BACKUP_RECOVERY.md)** - Backup and disaster recovery
+- **[Scaling](./SCALING.md)** - Horizontal scaling and high availability
 
 ## By Role
 
@@ -164,8 +165,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | STREAMING.md | 687 | Feb 2026 |
 | CACHING.md | 599 | Feb 2026 |
 | LOGGING.md | 618 | Feb 2026 |
+| SCALING.md | 723 | Feb 2026 |
 
-**Total: ~27,190 lines of documentation**
+**Total: ~27,913 lines of documentation**
 
 ## Contributing
 
