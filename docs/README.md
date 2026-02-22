@@ -69,6 +69,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Testing](./TESTING.md)** - Testing strategies and frameworks
 - **[Sandbox](./SANDBOX.md)** - Docker sandboxing and security isolation practices
 - **[Performance](./PERFORMANCE.md)** - Optimization and scaling
+- **[Security Audit](./SECURITY_AUDIT.md)** - Security audits and vulnerability management
 
 ## By Role
 
@@ -135,8 +136,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | COMPLIANCE.md | 399 | Feb 2026 |
 | VERSIONING.md | 426 | Feb 2026 |
 | EVENTS.md | 520 | Feb 2026 |
+| SECURITY_AUDIT.md | 480 | Feb 2026 |
 
-**Total: ~18,831 lines of documentation**
+**Total: ~19,311 lines of documentation**
 
 ## Contributing
 
