@@ -34,6 +34,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Authentication](./AUTHENTICATION.md)** - API keys, JWT, OAuth2, 2FA
 - **[Error Codes](./ERRORS.md)** - Error codes reference and handling
 - **[Versioning](./VERSIONING.md)** - API and SDK versioning guide
+- **[Mobile SDK](./MOBILE.md)** - iOS and Android mobile SDK
 
 ### Core Features
 
@@ -153,8 +154,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | LOCALIZATION.md | 515 | Feb 2026 |
 | ACCESSIBILITY.md | 539 | Feb 2026 |
 | SLA.md | 402 | Feb 2026 |
+| MOBILE.md | 657 | Feb 2026 |
 
-**Total: ~23,337 lines of documentation**
+**Total: ~23,994 lines of documentation**
 
 ## Contributing
 
