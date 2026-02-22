@@ -10,30 +10,47 @@ ResonantGenesis is a groundbreaking platform that combines blockchain technology
 
 ## 🚀 What is ResonantGenesis?
 
-ResonantGenesis is the world's first **blockchain-native AI agent operating system**. Unlike traditional AI platforms that rely on centralized servers, ResonantGenesis agents are:
+ResonantGenesis is an **AI agent platform with advanced physics simulation, semantic memory, and code analysis**. Our unique technical innovations include:
 
-- **🔗 Blockchain-Verified**: Every agent has a unique on-chain identity (DSID) registered on Base/Ethereum
-- **🤖 Fully Autonomous**: Agents run 24/7, making decisions and executing tasks without human intervention
-- **💰 Monetizable**: Create agents that earn revenue through the decentralized marketplace
-- **🔐 Trustless**: All agent actions are logged on-chain for complete transparency
-- **🌍 Decentralized**: No single point of failure - agents run across a distributed network
+- **⚛️ State Physics API**: Invariant enforcement engine for deterministic AI behavior
+- **🧠 Hash Sphere Memory**: 3D spatial memory system with resonance-based retrieval
+- **🔍 Code Visualizer**: Real-time codebase analysis and dependency mapping
+- **🌐 RARA Node**: Decentralized execution infrastructure
+- **🔗 Blockchain Identity**: On-chain agent verification (DSID) on Base/Ethereum
+- **🤖 Multi-Agent Teams**: Sequential, parallel, and branching workflows
 
 ## ✨ Key Features
 
-### 🎯 Agent Factory
-Build sophisticated AI agents with our intuitive interface:
-- **12+ Pre-built Templates**: Research Assistant, Trading Bot, Content Creator, Data Analyst, and more
-- **6 Categories**: Development, Research, Business, Creative, Automation, Analytics
-- **Multi-Model Support**: OpenAI GPT-4, Anthropic Claude, Google Gemini, local models
-- **Custom Tools**: Web scraping, API integrations, database access, file processing
-- **Webhook Integration**: OpenClaw compatibility for external triggers
+### ⚛️ State Physics API
+Deterministic AI behavior through physics-based invariant enforcement:
+- **Universe Simulation**: Each user gets isolated physics universe
+- **Energy & Spin Scoring**: Quantify semantic properties of agent actions
+- **Invariant Enforcement**: Guarantee behavioral constraints
+- **Real-time Visualization**: 3D particle system showing agent states
+- **API Integration**: RESTful endpoints for physics-based AI control
 
-### 🔗 Blockchain Identity
-Every agent gets a permanent on-chain identity:
-- **DSID (Decentralized System ID)**: Unique blockchain address
-- **Ethereum Verification**: View agent history on Basescan/Etherscan
-- **Ownership Transfer**: Agents can be transferred like NFTs
-- **Action Logging**: All agent activities recorded on-chain
+### 🧠 Hash Sphere Memory
+3D spatial memory system with cryptographic hashing:
+- **Memory Anchors**: Store memories as 3D coordinates (x,y,z)
+- **Resonance Scoring**: Calculate semantic similarity between memories
+- **Clustering Algorithms**: Automatic memory organization
+- **Encryption**: AES-256 encrypted memory storage
+- **Visual Exploration**: Three.js 3D visualization of memory space
+- **Temporal Tracking**: Time-based memory retrieval
+
+### 🔍 Code Visualizer
+Real-time codebase analysis and dependency mapping:
+- **Dependency Graphs**: Visual representation of code relationships
+- **Complexity Analysis**: Identify code hotspots and technical debt
+- **Interactive Exploration**: Navigate codebase visually
+- **Multi-language Support**: JavaScript, Python, TypeScript, and more
+
+### 🎯 Agent Factory
+Build AI agents with pre-built templates:
+- **6 Templates**: Research Assistant, Code Assistant, Content Writer, Data Analyst, Customer Support, Task Planner
+- **Multi-Model Support**: OpenAI GPT-4, Anthropic Claude, Google Gemini
+- **Custom Configuration**: System prompts, temperature, max tokens
+- **Tool Integration**: Extensible capability framework
 
 ### 📊 Performance Metrics
 Real-time monitoring and analytics:
