@@ -61,6 +61,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Analytics](./ANALYTICS.md)** - Platform analytics and reporting
 - **[Governance](./GOVERNANCE.md)** - Platform governance and voting
 - **[Localization](./LOCALIZATION.md)** - Internationalization and language support
+- **[Accessibility](./ACCESSIBILITY.md)** - WCAG compliance and assistive technology
 
 ### Blockchain
 
@@ -149,8 +150,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | ANALYTICS.md | 501 | Feb 2026 |
 | GOVERNANCE.md | 482 | Feb 2026 |
 | LOCALIZATION.md | 515 | Feb 2026 |
+| ACCESSIBILITY.md | 539 | Feb 2026 |
 
-**Total: ~22,396 lines of documentation**
+**Total: ~22,935 lines of documentation**
 
 ## Contributing
 
