@@ -8,7 +8,7 @@ Key terms and definitions used throughout the ResonantGenesis platform.
 An AI-powered autonomous entity that can perform tasks, make decisions, and interact with tools and other agents. Agents are configured with system prompts, models, and tool access.
 
 ### Agent Registry
-A smart contract that stores on-chain records of registered agents, including their manifest hashes, metadata URIs, and ownership information.
+A smart contract on ResonantGenesis's **internal blockchain** that stores records of registered agents, including their manifest hashes, metadata URIs, and ownership information. (Not on public Ethereum)
 
 ### Agent Studio
 The web interface for creating, configuring, and managing AI agents. Formerly called "Agents" in the navigation.
@@ -22,10 +22,10 @@ See [Memory Anchor](#memory-anchor).
 ## B
 
 ### Base
-An Ethereum Layer 2 blockchain built on the OP Stack. ResonantGenesis uses Base for low-cost, fast blockchain transactions.
+An Ethereum Layer 2 blockchain built on the OP Stack. ResonantGenesis uses Base **ONLY** for identity verification (DSIDs). All other blockchain operations use an internal chain.
 
 ### Blockchain Node
-A service that connects to the Base blockchain network, enabling agent registration, memory anchoring, and decentralized identity verification.
+A service that connects to blockchain networks. The platform uses Base for identity verification only, and an internal blockchain for agent registration, memory anchoring, and operational logging.
 
 ## C
 
@@ -75,7 +75,7 @@ The AI memory infrastructure system that stores and retrieves agent context acro
 ## I
 
 ### Identity Registry
-A smart contract that manages Decentralized Semantic Identities (DSIDs), storing owner addresses, public keys, and status information.
+A smart contract deployed on **Base (Ethereum L2)** that manages Decentralized Semantic Identities (DSIDs), storing owner addresses, public keys, and status information. This is the only contract on the public blockchain.
 
 ### Invariant
 A condition that must always be true during agent execution. Used by State Physics for safety enforcement.
@@ -97,7 +97,7 @@ A keccak256 hash of an agent's manifest, used as a unique identifier for blockch
 The platform section for discovering, purchasing, and renting agents, templates, and workflows. Formerly called "General Store."
 
 ### Memory Anchor
-An on-chain record that timestamps content hashes, providing immutable proof that specific data existed at a given time.
+An on-chain record on ResonantGenesis's **internal blockchain** that timestamps content hashes, providing immutable proof that specific data existed at a given time. (Not on public Ethereum)
 
 ### Memory System
 The infrastructure for storing and retrieving agent context, including episodic memory (events), semantic memory (facts), and procedural memory (skills).
