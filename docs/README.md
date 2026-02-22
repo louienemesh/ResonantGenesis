@@ -50,6 +50,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 - **[Templates](./TEMPLATES.md)** - Agent templates and customization
 - **[Events](./EVENTS.md)** - Platform events and event-driven architecture
 - **[Notifications](./NOTIFICATIONS.md)** - Notification system and preferences
+- **[Plugins](./PLUGINS.md)** - Plugin system and development
 
 ### Platform
 
@@ -157,8 +158,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | SLA.md | 402 | Feb 2026 |
 | MOBILE.md | 657 | Feb 2026 |
 | CLI.md | 658 | Feb 2026 |
+| PLUGINS.md | 634 | Feb 2026 |
 
-**Total: ~24,652 lines of documentation**
+**Total: ~25,286 lines of documentation**
 
 ## Contributing
 
