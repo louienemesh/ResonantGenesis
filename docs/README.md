@@ -49,6 +49,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 ### Operations
 
 - **[Deployment](./DEPLOYMENT.md)** - Self-hosting and deployment guide
+- **[Migrations](./MIGRATIONS.md)** - Database and API migration guide
 
 ## By Role
 
@@ -95,8 +96,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | RATE_LIMITS.md | 506 | Feb 2026 |
 | AUTHENTICATION.md | 449 | Feb 2026 |
 | ERRORS.md | 675 | Feb 2026 |
+| MIGRATIONS.md | 465 | Feb 2026 |
 
-**Total: ~9,130 lines of documentation**
+**Total: ~9,595 lines of documentation**
 
 ## Contributing
 
