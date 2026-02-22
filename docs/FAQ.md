@@ -110,13 +110,15 @@ DSID (Decentralized Semantic Identity) is a unique, blockchain-verified identity
 
 ### Which blockchain does ResonantGenesis use?
 
-We use **Base** (an Ethereum L2) for:
-- Low transaction costs
-- Fast confirmations
-- Ethereum compatibility
+We use a **hybrid blockchain architecture**:
 
-Testnet: Base Sepolia
-Mainnet: Base Mainnet
+- **Base (Ethereum L2)**: Used **ONLY** for identity verification (DSIDs)
+- **Internal Chain**: Used for agent registration, memory anchoring, and operational logging
+
+This provides low costs, fast confirmations, and privacy for operational data while maintaining decentralized identity on public Ethereum.
+
+Identity Testnet: Base Sepolia
+Identity Mainnet: Base Mainnet
 
 ### Do I need cryptocurrency to use ResonantGenesis?
 
