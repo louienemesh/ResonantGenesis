@@ -41,6 +41,7 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 
 - **[Trust Tiers](./TRUST_TIERS.md)** - Trust and verification system
 - **[Architecture](./ARCHITECTURE.md)** - System architecture overview
+- **[Pricing](./PRICING.md)** - Pricing tiers and billing
 
 ### Blockchain
 
@@ -103,8 +104,9 @@ Welcome to the ResonantGenesis documentation. This guide covers everything you n
 | MONITORING.md | 587 | Feb 2026 |
 | TESTING.md | 635 | Feb 2026 |
 | PERFORMANCE.md | 607 | Feb 2026 |
+| PRICING.md | 400 | Feb 2026 |
 
-**Total: ~11,424 lines of documentation**
+**Total: ~11,824 lines of documentation**
 
 ## Contributing
 
